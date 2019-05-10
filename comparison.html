@@ -42,37 +42,32 @@
     </ul>
   </div>
 </nav>
-<br>
-<br>
-<br>
-<br>
-<!--Create the left side of the home page with image and summary-->
 <body style= "background-color: rgb(236, 234, 234)">
-<div class="container">
-<div class="row">
-    <div class="col-md-5" style="background-color: white">
-      <div class= "row no-gutters">
-        <h3 class="card-title" style="font-family: Veranda">Summary: Latitude vs. X </h3>
-        <img src= "Temperature.png" class=img-fluid alt="Temperature Scatter Plot">
-        <p class="card-text">The purpose of this project was to compare weather at different
-          latitudes across the globe at a specific point in time. The Open Weather API from
-          OpenWeather.com was used to pull data from approximately 600 random cities across
-          the globe. This data was then cleaned and plotted using Python Pandas and Matplotlib.
-        </p>
-    </div>
-  </div>
 
-    <div class="col-md-3"  style= "background-color: white">
-      <h4 class="title" style="font-family: Veranda"> Visualizations</h4>
-      <img src= "CloudCover.png" class=img-fluid alt="Cloud Cover Scatter Plot"  >
-      <img src= "Humidity.png" class=img-fluid alt="Humidity Scatter Plot">
-    </div>
-
-<div class="col-md-3" style="background-color: white">
-  <img src= "Temperature.png" class=img-fluid alt="Temperature Scatter Plot">
-  <img src= "WindSpeed.png" class=img-fluid alt="Wind Speed Scatter Plot">
-</div>
-
-</body>
-
-</html>
+<br>
+<br>      
+<div class="container" style="background-color: white">
+        <div class="well text-center" style="font-family: Veranda">
+            <h2>All Visualizations</h2>
+            <div class="col-md-12">Click on a plot for more information</div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="temp.html"><img src="Temperature.png" alt="temparature scatter plot"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="Clouds.html"><img src="CloudCover.png" alt="cloud cover scatter plot"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="well text-center">
+                    <div class="col-md-12"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="humidity.html"><img src="Humidity.png" alt="humidity scatter plot"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="wind.html"><img src="WindSpeed.png" alt="windspeed scatter plot"></a>
+                        </div>
+                    </div>
+             </div>
+            </body>
