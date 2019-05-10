@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude_Temp</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Create the naviation bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Comparison</a>
+      </li>
+      <a class="nav-link" href="#"></a>
+    </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Plots </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Max Temp</a>
+          <a class="dropdown-item" href="#">Cloudiness</a>
+          <a class="dropdown-item" href="#">Wind Speed</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Humidity</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<body style= "background-color: rgb(236, 234, 234)">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6" style="background-color: white" style="margin:10px"  >
+              <div class= "row no-gutters">
+                <h3 class="card-title" style="font-family: Veranda">Max Temperature </h3>
+                <img src= "Temperature.png" class=img-fluid alt="Temperature Scatter Plot">
+                <p class="card-text"> This plot shows that max temperature 
+                    on April 5 2019 is higher in cities closer to the equator.
+                    Inversely, max temperature generally falls the further away
+                    a city is from the equator. The spring conditions in the furthest 
+                    observed northern cities (btwn latitudes 40 and 60+ degrees) 
+                    are much lower than the fall conditions in the furthest observed 
+                    southern cities (btwn latitudes -40 and -60 degrees).</p>
+            </div>
+          </div>
+        
+            <div class="col-md-3" style= "background-color: white">
+              <h4 class="title" style="font-family: Veranda"> Visualizations</h4>
+              <img src= "CloudCover.png" class=img-fluid alt="Cloud Cover Scatter Plot"  >
+              <img src= "Humidity.png" class=img-fluid alt="Humidity Scatter Plot">
+            </div>
+        
+        <div class="col-md-3" style="background-color: white">
+          <img src= "Temperature.png" class=img-fluid alt="Temperature Scatter Plot">
+          <img src= "WindSpeed.png" class=img-fluid alt="Wind Speed Scatter Plot">
+        </div>
+        
+
+            </body>

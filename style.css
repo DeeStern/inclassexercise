@@ -1,0 +1,10 @@
+.box {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background: deepskyblue;
+}
+
+  .mt-0 {
+    margin-top: 0 !important;
+  }
